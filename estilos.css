@@ -1,0 +1,46 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    font-size: 10px;
+}
+
+
+body {
+    background-color: aquamarine;
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cabeza {
+    background-image: url('./imagenes/descarga.jpg');
+    background-color: aqua;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 2rem;
+    height: 30vh;
+}
+.menusuperior{
+    list-style: none;
+    text-align: center;
+}
+.menusuperior li{
+    display: inline-block;
+    padding: 1rem   ;
+}
+.menusuperior a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+    font-size: 1.4rem;
+    font-weight: bold;
+    padding: 2rem;
+}
+.link-abajo a{
+color: rgb(61, 114, 8);
+float: right;
+}
