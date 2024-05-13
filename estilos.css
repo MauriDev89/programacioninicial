@@ -47,6 +47,7 @@ float: right;
 .box_model{
 background-color: rgb(255, 255, 255);
 border: 5px dotted blue;
+border-radius: 1rem;
 
     padding-top: 10px;
     padding-right: 30px;
@@ -58,7 +59,11 @@ border: 5px dotted blue;
     margin-bottom: 20px;
     margin-left: 20px;
 
-    width: auto;
+    width: 350px;
     height: auto;
+    overflow: auto;
  
+    font-weight: 700;
+    display: inline-block;
+
 }
