@@ -2,6 +2,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 html{
@@ -65,5 +66,48 @@ border-radius: 1rem;
  
     font-weight: 700;
     display: inline-block;
+
+}
+.contenido{
+    background-color: beige;
+    padding: 1rem;
+    border: 5px solid crimson;
+    width: 70%;
+    float: left;
+}
+.contenido_imagen{
+    width: 50%;
+}
+.contenido_imagen img{
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(255, 0, 43, 0.295);
+    border-radius: 25px;
+}
+.contenido_comentarios{
+background-color: darkkhaki;
+border: solid 7px yellow;
+padding: 1rem;
+line-height: 15px;
+width: 30%;
+float: right;
+}
+.lista_comentarios{
+    padding-top: 1rem;
+}
+.lista_comentarios li{
+    list-style: none;
+}
+.contenido_meme{
+    width: 90%;
+}
+.contenido_meme img{
+    width: 100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+    clear: both;
+    padding: 1rem;
+    width: 70%;
 
 }
